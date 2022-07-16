@@ -103,14 +103,14 @@ order by 2
 
 
 Select SoldAsVacant
-, CASE When SoldAsVacant = 'Y' THEN 'Yes'
+, CASE When SoldAsVacant = 'Y' THEN 'Yez'
 	   When SoldAsVacant = 'N' THEN 'No'
 	   ELSE SoldAsVacant
 	   END
 From PortfolioProyect..NashvilleHousing
 
 Update PortfolioProyect..NashvilleHousing
-SET SoldAsVacant = CASE When SoldAsVacant = 'Y' THEN 'Yes'
+SET SoldAsVacant = CASE When SoldAsVacant = 'Y' THEN 'Yezz'
 	   When SoldAsVacant = 'N' THEN 'No'
 	   ELSE SoldAsVacant
 	   END
